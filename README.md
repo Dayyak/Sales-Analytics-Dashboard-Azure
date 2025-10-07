@@ -29,12 +29,15 @@ A connected **Power BI dashboard** visualizes sales, products, and customer perf
 
 ## Gold Layer Schema
 
-Gold Schema
-├── DimCustomers
-├── DimSellers
-├── DimProducts
-├── DimReviews
-├── DimGeoLocation
-├── DimStatesEnglishName
-└── FactOrders
+### 📂 Gold Schema Structure
+
+| Table Name | Type | Description |
+|-------------|------|-------------|
+| **DimCustomers** | Dimension | Contains customer details including ID, location, and unique identifiers. |
+| **DimSellers** | Dimension | Holds seller information such as ID, city, and state. |
+| **DimProducts** | Dimension | Includes product specifications such as category, weight, and size. |
+| **DimReviews** | Dimension | Stores customer review data, scores, and timestamps. |
+| **DimGeoLocation** | Dimension | Maps geographic data by ZIP code, city, and state. |
+| **DimStatesEnglishName** | Dimension | Reference table mapping state codes to English names. |
+| **FactOrders** | Fact | Central transactional table containing order, product, payment, and delivery details. |
 
