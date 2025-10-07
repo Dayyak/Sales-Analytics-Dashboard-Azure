@@ -29,7 +29,7 @@ A connected **Power BI dashboard** visualizes sales, products, and customer perf
 
 ## Gold Layer Schema
 
-### 📂 Gold Schema Structure
+### Gold Schema Structure
 
 | Table Name | Type | Description |
 |-------------|------|-------------|
